@@ -2,12 +2,17 @@
 
 
 # 1. 팀 소개
+<div align="center">
+<img width="256" height="256" alt="Image" src="https://github.com/user-attachments/assets/fed6f75a-fed1-4ba4-b815-351edf2ed29a" />
 
+
+
+  
 | 기현택     | 김주형     | 이소정     | 임가은     | 최서린     |
 | ---------- | ---------- | ---------- | ---------- | ---------- |
 |[@mathplanet](https://github.com/mathplanet)|[@wngud09](https://github.com/wngud09)|[@leesojunghub](https://github.com/leesojunghub)|[@mars7421](https://github.com/mars7421)|[@seorinchoi](https://github.com/seorinchoi)|
 
-
+</div>
 
 # 2. 프로젝트 기간
 2025년 7월 10일 ~ 2025년 7월 11일 (2일)
