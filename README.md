@@ -24,15 +24,17 @@
 
 ## ✅ 프로젝트 배경 및 목적
 https://www.kaggle.com/datasets/jpacse/datasets-for-churn-telecom - Teradata center for customer relationship management at Duke University.
-Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수집한 데이터를 캐글을 통해 얻게 되었습니다.
+Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수집한 데이터를 캐글을 통해 얻게 되었습니다. Cell2Cell 통신사는 가상의 회사로 실제 기업의 데이터를 익명화를 통해 공개되는 경우가 많습니다.
 
 ## 🖐️ 프로젝트 소개
 이 데이터에는 50여개가 넘는 컬럼이 존재하며, 이를 통해 데이터 간의 상관관계를 분석하고 이상치, 결측치를 비롯한 EDA를 통해 고객 이탈에 어느 연관이 있는지 머신러닝 모델을 통해 알아보고자 합니다.
 
 ## ❤️ 기대효과
+약 5만 건의 데이터를 통한 머신러닝 모델 훈련과 이를 바탕으로 2만건의 테스트를 통해 모델의 성능을 평가합니다. 이를 통해, 통신사 고객의 이탈 이유를 정밀하게 분석하고 이를 통해 기업은 자사 고객의 유출을 막기 위한 전략을 세울 수 있을 것입니다.
+
 
 ## 👤 대상 사용자
-
+통신사의 CEO와 임원진은 데이터의 분석을 통해, 장단기적으로 다양한 전략을 준비하여 고객 이탈을 최소화하는 방법을 찾을 수 있게 될 것입니다.
 
 
 # 4. 기술 스택
@@ -42,9 +44,6 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 <img src="https://img.shields.io/badge/Visual Studio Code-61DAFB?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
 <img src="https://img.shields.io/badge/figma-FFCA28?style=for-the-badge&logo=figma&logoColor=white">
 <img src="https://img.shields.io/badge/streamlit-7952B3?style=for-the-badge&logo=streamlit&logoColor=white">
-
-
-### Development
 <img src="https://img.shields.io/badge/kaggle-003545?style=for-the-badge&logo=kaggle&logoColor=white">
 
 
