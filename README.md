@@ -53,10 +53,15 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 
 
 
-# 5. EDA
+# 5. EDA 및 데이터 전처리
 <img width="343" height="443" alt="Image" src="https://github.com/user-attachments/assets/3df9ec57-a54d-48b6-b203-ebc81a54673d" />
 <img width="417" height="443" alt="Image" src="https://github.com/user-attachments/assets/30173f34-3be2-4b4d-91cd-aa6ad3e0d09f" />
 <img width="760" height="443" alt="Image" src="https://github.com/user-attachments/assets/d740e681-d84d-4134-ad7b-5553d03b000b" />
+
+|결측치|이상치|인코딩|파라미터 튜닝|
+| ---------- | ---------- | ---------- | ---------- |
+|결측치의 갯수가 많지 않아 일괄적으로 처음에는 평균값으로 바꾸어 계산 -> 성능에 큰 영향이 없어 Dropna로 일괄 처리|이상치는 초반에는 Minmax랑 Standard 스케일러를 사용했고, 이후 Robust를 사용|초반에는 Ordinal 사용 -> 성능 문제로 label과 Frequency 사용|중반 이후, Grid-Search 튜닝 도입|
+
 
 
 # 6. 사용모델
