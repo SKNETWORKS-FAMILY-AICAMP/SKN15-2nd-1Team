@@ -57,7 +57,7 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 
 |컬럼 별 원형비교|컬럼 별 상대도수|컬럼 별 비율비교|
 | ---------- | ---------- | ---------- |
-|<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/3df9ec57-a54d-48b6-b203-ebc81a54673d" />|<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/32d6bafa-346a-4316-9b5e-b1d73bb6e712" />|<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/d740e681-d84d-4134-ad7b-5553d03b000b" />|
+|<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/3df9ec57-a54d-48b6-b203-ebc81a54673d" />|<img width="417" height="420" alt="Image" src="https://github.com/user-attachments/assets/32d6bafa-346a-4316-9b5e-b1d73bb6e712" />|<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/d740e681-d84d-4134-ad7b-5553d03b000b" />|
 
 
 
