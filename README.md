@@ -56,6 +56,9 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 
 
 # 5. EDA
+<img width="343" height="443" alt="Image" src="https://github.com/user-attachments/assets/3df9ec57-a54d-48b6-b203-ebc81a54673d" />
+<img width="417" height="443" alt="Image" src="https://github.com/user-attachments/assets/30173f34-3be2-4b4d-91cd-aa6ad3e0d09f" />
+<img width="760" height="443" alt="Image" src="https://github.com/user-attachments/assets/d740e681-d84d-4134-ad7b-5553d03b000b" />
 
 
 # 6. 사용모델
