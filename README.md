@@ -38,7 +38,7 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 
 
 # 4. 기술 스택
-### Environment
+### --Environment--
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/Visual Studio Code-61DAFB?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
@@ -47,7 +47,7 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 <img src="https://img.shields.io/badge/kaggle-003545?style=for-the-badge&logo=kaggle&logoColor=white">
 
 
-### Communication
+### --Communication--
 <img src="https://img.shields.io/badge/Discord-02569B?style=for-the-badge&logo=Discord&logoColor=white">
 <img src="https://img.shields.io/badge/Notion-F7DF1E?style=for-the-badge&logo=notion&logoColor=black">
 
@@ -73,11 +73,11 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 
 
 # 6. 사용모델
-| 모델 | LightGBM| XGBoost |CatBoost|RandomForest|
+|모델| LightGBM| XGBoost |CatBoost|RandomForest|
 | ---------- | ---------- | ---------- | ---------- | ---------- |
-| 특징   |Gradient Boosting 기반의 트리 모델로 매우 빠르고 메모리 효율이 좋음|트리 기반의 부스팅 알고리즘, overfitting을 방지하는 정규화 포함|범주형 데이터 처리에 특화된 Gradient Boosting 모델|여러 결정트리를 결합한 앙상블 모델 (bagging 기반)|
-| 장점   |대용량 데이터 처리에 강함, 카테고리형 데이터 자동 처리 지원|성능이 우수하며 다양한 설정 가능|전처리 없이 범주형 변수 지원, 빠른 학습, 안정적인 성능|과적합에 강함, 변수 중요도 제공|
-| 단점   |소규모 데이터에서는 과적합 가능성 있음|하이퍼파라미터가 많고, 튜닝에 시간이 걸릴 수 있음|모델 해석력이 부족할 수 있음|예측이 느릴 수 있고, 매우 큰 데이터에서는 비효율적일 수 있음|
+|특징|Gradient Boosting 기반의 트리 모델로 매우 빠르고 메모리 효율이 좋음|트리 기반의 부스팅 알고리즘, overfitting을 방지하는 정규화 포함|범주형 데이터 처리에 특화된 Gradient Boosting 모델|여러 결정트리를 결합한 앙상블 모델 (bagging 기반)|
+|장점|대용량 데이터 처리에 강함, 카테고리형 데이터 자동 처리 지원|성능이 우수하며 다양한 설정 가능|전처리 없이 범주형 변수 지원, 빠른 학습, 안정적인 성능|과적합에 강함, 변수 중요도 제공|
+|단점|소규모 데이터에서는 과적합 가능성 있음|하이퍼파라미터가 많고, 튜닝에 시간이 걸릴 수 있음|모델 해석력이 부족할 수 있음|예측이 느릴 수 있고, 매우 큰 데이터에서는 비효율적일 수 있음|
 
 |모델| Logistic Regression| SVM (Support Vector Machine)|TabNet|
 | ---------- | ---------- | ---------- | ---------- |
