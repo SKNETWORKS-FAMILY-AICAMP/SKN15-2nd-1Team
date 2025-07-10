@@ -45,7 +45,7 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 <img src="https://img.shields.io/badge/figma-FFCA28?style=for-the-badge&logo=figma&logoColor=white">
 <img src="https://img.shields.io/badge/streamlit-7952B3?style=for-the-badge&logo=streamlit&logoColor=white">
 <img src="https://img.shields.io/badge/kaggle-003545?style=for-the-badge&logo=kaggle&logoColor=white">
-<img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google Colab&logoColor=white">
+<img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=GoogleColab&logoColor=white">
 
 
 ### --Communication--
