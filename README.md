@@ -65,11 +65,12 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 | ---------- | ---------- |
 |<img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/19e6eb0b-6e0c-4cc3-9b5c-38201a57ecfc" />|<img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/456537bc-0b9c-44a0-adf5-97689b736894" />|
 
+### 컬럼 내 이상치 처리 방법
+|0,1 이진|라벨|기타|
+| ---------- | ---------- | ---------- |
+|MadeCallToRetentionTeam, Churn, ChildrenInHH, Homeownership, OptOutMailings, HandsetWebCapable, HandsetRefurbished, OwnsComputer, BuysViaMailOrder|ServiceAre, PrizmCode, Occupation|HandsetPrice-Unknown을 0으로 변경, CreditRating-문자 제거|
 
-|이상치|0,1 이진|라벨|기타|
-| ---------- | ---------- | ---------- | ---------- |
-|컬럼명|MadeCallToRetentionTeam, Churn, ChildrenInHH, Homeownership, OptOutMailings, HandsetWebCapable, HandsetRefurbished, OwnsComputer, BuysViaMailOrder|ServiceAre, PrizmCode, Occupation|HandsetPrice-Unknown을 0으로 변경, CreditRating-문자 제거|
-
+### 모델 별 성능 작업
 |결측치|이상치|인코딩|파라미터 튜닝|
 | ---------- | ---------- | ---------- | ---------- |
 |결측치의 갯수가 많지 않아 일괄적으로 처음에는 평균값으로 바꾸어 계산 -> 성능에 큰 영향이 없어 Dropna로 일괄 처리|이상치는 초반에는 Minmax랑 Standard 스케일러를 사용했고, 이후 Robust를 사용|초반에는 Ordinal 사용 -> 성능 문제로 label과 Frequency 사용|중반 이후, Grid-Search 튜닝 도입|
