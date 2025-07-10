@@ -65,7 +65,7 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 | ---------- | ---------- |
 |<img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/19e6eb0b-6e0c-4cc3-9b5c-38201a57ecfc" />|<img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/456537bc-0b9c-44a0-adf5-97689b736894" />|
 
-### 컬럼 내 이상치 처리 방법
+### 컬럼 내 전처리 방법
 |0,1 이진|라벨|기타|
 | ---------- | ---------- | ---------- |
 |MadeCallToRetentionTeam, Churn, ChildrenInHH, Homeownership, OptOutMailings, HandsetWebCapable, HandsetRefurbished, OwnsComputer, BuysViaMailOrder|ServiceAre, PrizmCode, Occupation|HandsetPrice-Unknown을 0으로 변경, CreditRating-문자 제거|
