@@ -6,7 +6,7 @@
 <img width="256" height="256" alt="Image" src="https://github.com/user-attachments/assets/fed6f75a-fed1-4ba4-b815-351edf2ed29a" />
 
 
-
+일단하조
   
 | 기현택     | 김주형     | 이소정     | 임가은     | 최서린     |
 | ---------- | ---------- | ---------- | ---------- | ---------- |
