@@ -69,7 +69,7 @@ Cell2Cell 통신사의 고객 이탈 관련 데이터로 듀크 대학에서 수
 ### 컬럼 내 전처리 방법
 |0,1 이진|라벨|기타|
 | ---------- | ---------- | ---------- |
-|MadeCallToRetentionTeam, Churn, ChildrenInHH, Homeownership, OptOutMailings, HandsetWebCapable, HandsetRefurbished, OwnsComputer, BuysViaMailOrder|ServiceAre, PrizmCode, Occupation|HandsetPrice-Unknown을 0으로 변경, CreditRating-문자 제거|
+|MadeCallToRetentionTeam, Churn, ChildrenInHH, Homeownership, OptOutMailings, HandsetWebCapable, HandsetRefurbished, OwnsComputer, BuysViaMailOrder, HandsetPrice|ServiceAre, PrizmCode, Occupation|CreditRating-문자 제거|
 
 ### 모델 별 성능 작업
 |결측치|이상치|인코딩|파라미터 튜닝|
