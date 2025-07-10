@@ -20,7 +20,7 @@
 # 3. 프로젝트 개요
 
 ## 📕 프로젝트명
-
+통신사 이탈 고객 방지 프로젝트
 
 ## ✅ 프로젝트 배경 및 목적
 https://www.kaggle.com/datasets/jpacse/datasets-for-churn-telecom - Teradata center for customer relationship management at Duke University.
