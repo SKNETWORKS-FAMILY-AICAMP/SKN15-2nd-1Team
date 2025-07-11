@@ -13,6 +13,7 @@
 |[@mathplanet](https://github.com/mathplanet)|[@wngud09](https://github.com/wngud09)|[@leesojunghub](https://github.com/leesojunghub)|[@mars7421](https://github.com/mars7421)|[@seorinchoi](https://github.com/seorinchoi)|
 
 </div>
+<br/>
 
 # 2. 프로젝트 기간
 2025년 7월 10일 ~ 2025년 7월 11일 (2일)
