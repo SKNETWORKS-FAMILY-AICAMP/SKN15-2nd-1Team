@@ -86,6 +86,68 @@
 
 # 5. EDA 및 데이터 전처리
 
+| 컬럼명                         | 한글 설명                    |
+| --------------------------- | ------------------------ |
+| CustomerID                | 고객 고유 ID                 |
+| Churn                     | 해지 여부 (이탈 여부)            |
+| MonthlyRevenue            | 월별 매출                    |
+| MonthlyMinutes            | 월별 통화 시간 (분)             |
+| TotalRecurringCharge      | 월 정기 요금 총액               |
+| DirectorAssistedCalls     | 상담원 연결 통화 수              |
+| OverageMinutes            | 초과 사용 시간 (분)             |
+| RoamingCalls              | 로밍 통화 수                  |
+| PercChangeMinutes         | 전월 대비 사용량 변화율 (%)        |
+| PercChangeRevenues        | 전월 대비 매출 변화율 (%)         |
+| DroppedCalls              | 끊긴 통화 수                  |
+| BlockedCalls              | 차단된 통화 수                 |
+| UnansweredCalls           | 응답하지 않은 통화 수             |
+| CustomerCareCalls         | 고객센터 문의 통화 수             |
+| ThreewayCalls             | 삼자 통화 수                  |
+| ReceivedCalls             | 수신 통화 수                  |
+| OutboundCalls             | 발신 통화 수                  |
+| InboundCalls              | 수신 통화 수                  |
+| PeakCallsInOut            | 피크 시간대 통화 수 (발신/수신 합계)   |
+| OffPeakCallsInOut         | 비 피크 시간대 통화 수 (발신/수신 합계) |
+| DroppedBlockedCalls       | 끊기거나 차단된 통화 수            |
+| CallForwardingCalls       | 착신 전환된 통화 수              |
+| CallWaitingCalls          | 통화 대기 통화 수               |
+| MonthsInService           | 서비스 가입 개월 수              |
+| UniqueSubs                | 고유 가입자 수                 |
+| ActiveSubs                | 활성 가입자 수                 |
+| ServiceArea               | 서비스 지역                   |
+| Handsets                  | 보유한 단말기 수                |
+| HandsetModels             | 사용 중인 단말기 모델 수           |
+| CurrentEquipmentDays      | 현재 장비 사용일수               |
+| AgeHH1                    | 가구주 연령                   |
+| AgeHH2                    | 배우자 연령                   |
+| ChildrenInHH              | 가구 내 자녀 수                |
+| HandsetRefurbished        | 리퍼비시 단말기 여부              |
+| HandsetWebCapable         | 웹 접속 가능 단말기 여부           |
+| TruckOwner                | 트럭 소유 여부                 |
+| RVOwner                   | RV(레저용 차량) 소유 여부         |
+| Homeownership             | 주택 소유 여부                 |
+| BuysViaMailOrder          | 우편 주문 경험 여부              |
+| RespondsToMailOffers      | 우편 광고 응답 여부              |
+| OptOutMailings            | 우편 수신 거부 여부              |
+| NonUSTravel               | 미국 외 여행 경험 여부            |
+| OwnsComputer              | 컴퓨터 소유 여부                |
+| HasCreditCard             | 신용카드 보유 여부               |
+| RetentionCalls            | 해지 방지팀 통화 수              |
+| RetentionOffersAccepted   | 해지 방지 제안 수락 여부           |
+| NewCellphoneUser          | 신규 휴대폰 사용자 여부            |
+| NotNewCellphoneUser       | 비신규 휴대폰 사용자 여부           |
+| ReferralsMadeBySubscriber | 지인 추천 수                  |
+| IncomeGroup               | 소득 그룹                    |
+| OwnsMotorcycle            | 오토바이 소유 여부               |
+| AdjustmentsToCreditRating | 신용 등급 조정                 |
+| HandsetPrice              | 단말기 가격                   |
+| MadeCallToRetentionTeam   | 해지 방지팀 통화 여부             |
+| CreditRating              | 신용 등급                    |
+| PrizmCode                 | 라이프스타일 코드 (Prizm 분류)     |
+| Occupation                | 직업                       |
+| MaritalStatus             | 결혼 여부                    |
+
+
 |컬럼 별 원형비교|컬럼 별 상대도수|컬럼 별 비율비교|
 | ---------- | ---------- | ---------- |
 |<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/3df9ec57-a54d-48b6-b203-ebc81a54673d" />|<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/32d6bafa-346a-4316-9b5e-b1d73bb6e712" />|<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/d740e681-d84d-4134-ad7b-5553d03b000b" />|
