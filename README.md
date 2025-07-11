@@ -107,7 +107,10 @@
 <img width="1102" height="697" alt="Image" src="https://github.com/user-attachments/assets/5d84fa3d-3bf2-4a22-b2ac-b4f90a25ec6c" />
 <img width="1116" height="381" alt="Image" src="https://github.com/user-attachments/assets/73aef602-e506-4df5-8eaa-df58bfc35852" />
 
-
+| Models                  | Train Accuracy | Test Accuracy | Train F1 | Test F1 | Train Recall | Test Recall |
+|-------------------------|----------------|----------------|----------|---------|---------------|--------------|
+| XGBoost                 | 0.8338         | 0.7162         | 0.7564   | 0.5595  | 0.7254        | 0.5644       |
+| LGBM+CatBoost+Logistic  | 0.7132         | 0.6388         | 0.6020   | 0.5029  | 0.7265        | 0.6386       |
 
 # 8. 한 줄 회고
 
