@@ -14,17 +14,19 @@
 
 </div>
 <br/>
+<br/>
 
 # 2. 프로젝트 기간
 2025년 7월 10일 ~ 2025년 7월 11일 (2일)
 <br/>
 <br/>
-<br/>
-<br/>
+
 # 3. 프로젝트 개요
 
 ## 📕 프로젝트명
 통신사 이탈 고객 방지 프로젝트
+<br/>
+<br/>
 
 ## ✅ 프로젝트 배경 및 소개
 현재 국내 통신 산업은 극심한 경쟁 환경에 직면해 있습니다. 거시경제의 전반적인 성장 둔화와 통신 시장의 포화로 인해 매출 성장률은 정체되어 있으며, 이러한 현상은 국내뿐 아니라 전 세계적으로도 유사하게 나타나고 있습니다. <p>
@@ -34,6 +36,8 @@
 이러한 환경 속에서 통신사는 기존 고객을 유지하고 신규 가입자 유치에 따르는 마케팅 비용을 줄이기 위해 보다 정교한 데이터 기반 전략이 요구됩니다. 특히, 머신러닝 기반의 분석 기법은 고객 이탈 현상을 사전에 예측하고, 이탈에 영향을 미치는 주요 특성을 파악하는 데 효과적인 도구로 활용될 수 있습니다.
 
 이러한 배경을 바탕으로, Kaggle에서 제공하는 **cell2cell** 데이터셋을 활용하여, 통신사 고객의 이탈 여부를 예측하고 이에 영향을 미치는 다양한 특성을 분석하는 웹 서비스를 제작하였습니다. 
+<br/>
+<br/>
 
 ## ❤️ 기대효과
 * **고객 이탈 방지 전략 수립**
@@ -46,7 +50,8 @@
   * 예측 모델을 REST API 또는 배치 시스템에 연결하여 이탈 예측 점수를 자동으로 갱신으로 CRM 시스템과 연동할 수 있어 실무 적용성이 높습니다.
 * **모델 확장 가능성 확보**
   * 해당 모델은 통신사 외에도 보험, 금융, OTT 등 고객 유지가 핵심인 산업 전반에 확장 적용할 수 있는 기반이 됩니다.
-
+<br/>
+<br/>
 
 ## 👤 대상 사용자
 * **통신사 CRM 및 마케팅 부서 담당자 🕵️‍♂️**
@@ -58,7 +63,8 @@
 * **CRM 개발자 및 운영자 👨‍💻**
   * 예측 모델 결과를 CRM 시스템에 통합하여 실시간 이탈 경고 시스템을 구현할 수 있습니다.
   * REST API 또는 배치 시스템을 통해 정기적으로 이탈 예측 갱신을 자동화할 수 있습니다. 
-
+<br/>
+<br/>
 
 # 4. 기술 스택
 ### ✔️ Environment
@@ -70,13 +76,13 @@
 <img src="https://img.shields.io/badge/kaggle-003545?style=for-the-badge&logo=kaggle&logoColor=white">
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=GoogleColab&logoColor=white">
 
-
 ### ✔️ Communication
 <img src="https://img.shields.io/badge/Discord-02569B?style=for-the-badge&logo=Discord&logoColor=white">
 <img src="https://img.shields.io/badge/Notion-F7DF1E?style=for-the-badge&logo=notion&logoColor=black">
 
 
-
+<br/>
+<br/>
 # 5. EDA 및 데이터 전처리
 
 |컬럼 별 원형비교|컬럼 별 상대도수|컬럼 별 비율비교|
@@ -94,7 +100,8 @@
 |<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/0f7b429b-e8df-48b5-9e34-fa474d0e96c5" />|<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/1bef460f-aa31-4c43-bf82-c2ad38e17010" />|
 
 
-
+<br/>
+<br/>
 ### 컬럼 내 전처리 방법
 |0,1 이진 분류|라벨|기타|
 | ---------- | ---------- | ---------- |
@@ -106,7 +113,8 @@
 |결측치의 갯수가 많지 않아 일괄적으로 처음에는 평균값으로 바꾸어 계산 -> 성능에 큰 영향이 없어 Dropna로 일괄 처리|이상치는 초반에는 Minmax랑 Standard 스케일러를 사용했고, 이후 Robust를 사용|초반에는 Ordinal 사용 -> 성능 문제로 label과 Frequency 사용|중반 이후, Grid-Search 튜닝 도입|Over, Under, Class_Weight 도입|
 
 
-
+<br/>
+<br/>
 # 6. 사용모델
 |모델| LightGBM| XGBoost |CatBoost|RandomForest|
 | ---------- | ---------- | ---------- | ---------- | ---------- |
@@ -119,6 +127,8 @@
 |특징|선형 회귀 기반의 확률적 분류 모델|마진 최대화를 통한 이진 분류, 고차원 공간 매핑 가능 (커널)|딥러닝 기반의 테이블형 데이터 전용 모델, Attention 사용|여러 모델의 클래스별 확률 예측값을 평균해 가장 높은 확률의 클래스로 결정|
 |장점|빠르고 해석이 쉬움, 베이스라인 모델로 적합|복잡한 분류 문제에 강함, 소규모 데이터에 적합|feature selection이 자동으로 이뤄짐, end-to-end 학습|확률 정보를 활용해 더 정교하고 안정적인 예측 가능|
 |단점|비선형 관계를 잘 포착하지 못함|대용량 데이터에 비효율적, 커널 선택에 민감|학습 시간 오래 걸림, 데이터 정규화나 튜닝 필요|모델들이 확률을 잘 추정하지 못하면 성능이 떨어질 수 있음|
+<br/>
+<br/>
 
 # 7. 프로젝트 결과
 <img width="990" height="645" alt="Image" src="https://github.com/user-attachments/assets/5355337f-8990-4750-9c22-ec573086d27e" />
@@ -132,6 +142,8 @@
 |-------------------------|----------------|----------------|----------|---------|---------------|--------------|
 | XGBoost                 | 0.8338         | 0.7162         | 0.7564   | 0.5595  | 0.7254        | 0.5644       |
 | LGBM+CatBoost+Logistic  | 0.7132         | 0.6388         | 0.6020   | 0.5029  | 0.7265        | 0.6386       |
+<br/>
+<br/>
 
 # 8. 한 줄 회고
 
