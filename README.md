@@ -68,6 +68,12 @@
 | ---------- | ---------- |
 |<img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/19e6eb0b-6e0c-4cc3-9b5c-38201a57ecfc" />|<img width="450" height="450" alt="Image" src="https://github.com/user-attachments/assets/456537bc-0b9c-44a0-adf5-97689b736894" />|
 
+|최적화(전처리 전)|최적화(전처리 후)|
+| ---------- | ---------- |
+|<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/0f7b429b-e8df-48b5-9e34-fa474d0e96c5" />|<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/1bef460f-aa31-4c43-bf82-c2ad38e17010" />|
+
+
+
 ### 컬럼 내 전처리 방법
 |0,1 이진 분류|라벨|기타|
 | ---------- | ---------- | ---------- |
