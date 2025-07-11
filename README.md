@@ -98,7 +98,16 @@
 |특징|선형 회귀 기반의 확률적 분류 모델|마진 최대화를 통한 이진 분류, 고차원 공간 매핑 가능 (커널)|딥러닝 기반의 테이블형 데이터 전용 모델, Attention 사용|
 |장점|빠르고 해석이 쉬움, 베이스라인 모델로 적합|복잡한 분류 문제에 강함, 소규모 데이터에 적합|feature selection이 자동으로 이뤄짐, end-to-end 학습|
 |단점|비선형 관계를 잘 포착하지 못함|대용량 데이터에 비효율적, 커널 선택에 민감|학습 시간 오래 걸림, 데이터 정규화나 튜닝 필요|
+
 # 7. 프로젝트 결과
+<img width="990" height="645" alt="Image" src="https://github.com/user-attachments/assets/5355337f-8990-4750-9c22-ec573086d27e" />
+<img width="978" height="792" alt="Image" src="https://github.com/user-attachments/assets/60a61b13-df6e-4f7e-b1b6-162ee6d886fc" />
+<img width="973" height="698" alt="Image" src="https://github.com/user-attachments/assets/103faae0-f57c-4de2-88ac-8d23267abb38" />
+<img width="977" height="702" alt="Image" src="https://github.com/user-attachments/assets/b7a4081d-ce65-4495-9417-f0331b5af338" />
+<img width="1398" height="698" alt="Image" src="https://github.com/user-attachments/assets/fe12e079-80ab-432c-b98e-0203b49b7dc8" />
+<img width="1116" height="381" alt="Image" src="https://github.com/user-attachments/assets/73aef602-e506-4df5-8eaa-df58bfc35852" />
+
+
 
 # 8. 한 줄 회고
 
