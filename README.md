@@ -15,9 +15,11 @@
 </div>
 <br/>
 <br/>
+<br/>
 
 # 2. 프로젝트 기간
 2025년 7월 10일 ~ 2025년 7월 11일 (2일)
+<br/>
 <br/>
 <br/>
 
@@ -104,6 +106,8 @@
 |0,1 이진 분류|라벨|기타|
 | ---------- | ---------- | ---------- |
 |MadeCallToRetentionTeam, Churn, ChildrenInHH, Homeownership, OptOutMailings, HandsetWebCapable, HandsetRefurbished, OwnsComputer, BuysViaMailOrder, HandsetPrice|ServiceAre, PrizmCode, Occupation|CreditRating-문자 제거|
+<br/>
+<br/>
 
 ### 모델 별 성능 작업
 |결측치|이상치|인코딩|파라미터 튜닝|샘플링|
