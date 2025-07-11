@@ -79,10 +79,9 @@
 ### ✔️ Communication
 <img src="https://img.shields.io/badge/Discord-02569B?style=for-the-badge&logo=Discord&logoColor=white">
 <img src="https://img.shields.io/badge/Notion-F7DF1E?style=for-the-badge&logo=notion&logoColor=black">
-
-
 <br/>
 <br/>
+
 # 5. EDA 및 데이터 전처리
 
 |컬럼 별 원형비교|컬럼 별 상대도수|컬럼 별 비율비교|
@@ -98,10 +97,9 @@
 |최적화(전처리 전)|최적화(전처리 후)|
 | ---------- | ---------- |
 |<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/0f7b429b-e8df-48b5-9e34-fa474d0e96c5" />|<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/1bef460f-aa31-4c43-bf82-c2ad38e17010" />|
-
-
 <br/>
 <br/>
+
 ### 컬럼 내 전처리 방법
 |0,1 이진 분류|라벨|기타|
 | ---------- | ---------- | ---------- |
@@ -111,10 +109,9 @@
 |결측치|이상치|인코딩|파라미터 튜닝|샘플링|
 | ---------- | ---------- | ---------- | ---------- | ---------- |
 |결측치의 갯수가 많지 않아 일괄적으로 처음에는 평균값으로 바꾸어 계산 -> 성능에 큰 영향이 없어 Dropna로 일괄 처리|이상치는 초반에는 Minmax랑 Standard 스케일러를 사용했고, 이후 Robust를 사용|초반에는 Ordinal 사용 -> 성능 문제로 label과 Frequency 사용|중반 이후, Grid-Search 튜닝 도입|Over, Under, Class_Weight 도입|
-
-
 <br/>
 <br/>
+
 # 6. 사용모델
 |모델| LightGBM| XGBoost |CatBoost|RandomForest|
 | ---------- | ---------- | ---------- | ---------- | ---------- |
